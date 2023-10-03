@@ -1,38 +1,42 @@
 html {
-    height:100%;
-    min-height:2.2in;
-    min-width:3.7in;
+  height: 100%;
+  min-height: 2.2in;
+  min-width: 3.7in;
+  color: black;
 }
 body {
-    margin:0;
-    border:1px solid green;
-    height:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  margin: 0;
+  border: 1px solid green;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #343434;
 }
 
 .h-card {
-    border:1px solid red;
-    width:3.5in;
-    height:2.0in;
-    border-radius: .2in;
+  border: 1px solid #eaeaea;
+  width: 3.5in;
+  height: 2in;
+  border-radius: 0.2in;
+  background-color: #f2f2f2;
+  box-shadow: 10px 10px 5px #212121;
 }
 
 .u-logo {
-    width:.5in;
-    height:.5in;
-    margin: 10px;
+  width: 0.5in;
+  height: 0.5in;
+  margin: 10px;
 }
 
 div.left {
-    display:inline-block;
+  display: inline-block;
 }
 
 div.right {
-    display:inline-block;
+  display: inline-block;
 }
 
 div.connect {
-    display:block;
+  display: block;
 }
